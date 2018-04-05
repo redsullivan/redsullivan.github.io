@@ -1,0 +1,39 @@
+@import '~variables.scss';
+
+section.about {
+    animation: $content-animation;
+
+    article {
+
+      div.about-heritage,
+      div.about-logo {
+        display: flex;
+        padding-bottom: 55px;
+
+        img {
+          margin-right: 40px;
+          box-shadow: $shadow-light;
+
+          &.logo {
+            box-shadow: none;
+            width: 80%;
+          }
+        }
+      }
+
+      div.about-chefs {
+        display: flex;
+        padding-bottom: 55px;
+
+        img {
+          margin-left: 40px;
+          box-shadow: $shadow-light;
+          width: 450px;
+        }
+      }
+
+      p {
+          line-height: 1.6;
+      }
+    }
+}

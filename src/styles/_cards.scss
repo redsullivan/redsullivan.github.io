@@ -1,0 +1,14 @@
+@import '~variables.scss';
+
+.card {
+    box-shadow: $shadow-light;
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      height: 60px;
+      padding-left: 10px;
+      background: $color-dark;
+      color: $color-light;
+    }
+}
