@@ -19,11 +19,13 @@ import { HeaderComponent } from './components/header/header.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { MapComponent } from './components/map/map.component';
 import { PhotoComponent } from './components/photo/photo.component';
+import { MaintenanceComponent } from './components/maintenance/maintenance.component';
 
 const appRoutes = [
   {
     path: '',
-    component: HomeComponent
+    //component: HomeComponent
+    component: MaintenanceComponent
   },
   {
     path: 'menu',
@@ -62,7 +64,8 @@ const appRoutes = [
     HeaderComponent,
     BannerComponent,
     MapComponent,
-    PhotoComponent
+    PhotoComponent,
+    MaintenanceComponent
   ],
   imports: [
     BrowserModule,
