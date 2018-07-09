@@ -24,8 +24,8 @@ import { MaintenanceComponent } from './components/maintenance/maintenance.compo
 const appRoutes = [
   {
     path: '',
-    //component: HomeComponent
-    component: MaintenanceComponent
+    component: HomeComponent
+    //component: MaintenanceComponent
   },
   {
     path: 'menu',

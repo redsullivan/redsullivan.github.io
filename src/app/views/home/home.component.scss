@@ -29,6 +29,11 @@ section.landing {
                 padding: 20px;
                 padding-right: 0;
                 line-height: 1.6;
+
+                .signature {
+                  font-style: italic;
+                  color: $color-secondary;
+                }
             }
         }
     }
@@ -37,7 +42,15 @@ section.landing {
         flex: 1;
 
         div.map {
-            padding-top: 20px;
+            margin-top: 20px;
+            box-shadow: $shadow-light;
+        }
+
+        .map-caption {
+          font-style: italic;
+          color: $color-secondary;
+          margin-top: 10px;
+          font-size: 12px;
         }
     }
 
@@ -63,15 +76,15 @@ section.summary {
       background-repeat: no-repeat;
 
       &.heritage {
-        background-image: url('~assets/images/stock/sausage.jpg');
+        background-image: url('~assets/images/sullivan/ribs.jpg');
       }
 
       &.menu {
-        background-image: url('~assets/images/stock/food-truck.jpg');
+        background-image: url('~assets/images/trailer2.jpg');
       }
 
       &.contact {
-        background-image: url('~assets/images/stock/wings.jpg');
+        background-image: url('~assets/images/sullivan/food.jpg');
       }
     }
   }

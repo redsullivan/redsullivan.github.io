@@ -4,7 +4,13 @@ section.menu {
     animation: $content-animation;
 
     p.section-desc {
-        font-weight: bold;
+        font-style: italic;
+        color: $color-secondary;
+
+        .price {
+          color: $color-dark;
+          font-style: none;
+        }
     }
 
     div.menu-row {
@@ -31,6 +37,11 @@ section.menu {
 
             span.food-desc {
                 color: $color-dark;
+
+                .unit {
+                  font-style: italic;
+                  color: $color-secondary;
+                }
             }
         }
     }

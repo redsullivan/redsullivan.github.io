@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MapComponent implements OnInit {
 
-  lat = 39.855811;
-  long = -75.857854;
-  
+  lat = 39.89271;
+  long = -75.9205193;
+
   constructor() { }
 
   ngOnInit() {

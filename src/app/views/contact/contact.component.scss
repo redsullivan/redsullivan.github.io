@@ -28,6 +28,7 @@ section.contact {
 
     & a {
       color: inherit;
+      text-decoration: underline;
 
       &:hover {
         color: $color-primary;
@@ -58,6 +59,13 @@ section.contact {
 
         div.map-container {
           box-shadow: $shadow-dark;
+          margin-bottom: 5px;
+        }
+
+        .map-caption {
+          font-style: italic;
+          color: $color-secondary;
+          font-size: 12px;
         }
       }
 
