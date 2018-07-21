@@ -17,7 +17,6 @@ header {
         flex-direction: column;
         justify-content: center;
         height: $header-height + 10px;
-        margin-top: 35px;
 
         span.tele,
         span.email,
@@ -97,7 +96,6 @@ header {
         padding: 0;
         list-style-type: none;
         height: $header-height;
-        margin-top: 35px;
 
         li.social-network {
             display: inline-flex;
