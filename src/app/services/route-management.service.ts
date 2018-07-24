@@ -10,17 +10,20 @@ export class RouteManagementService {
 
   constructor() {
     switch (window.location.pathname) {
-      case ('/menu'):
+      case ('/'):
         this.activeRoute = ROUTES[0];
         break;
-      case ('/contact'):
+      case ('/menu'):
         this.activeRoute = ROUTES[1];
         break;
-      case ('/about'):
+      case ('/contact'):
         this.activeRoute = ROUTES[2];
         break;
-      case ('/photos'):
+      case ('/about'):
         this.activeRoute = ROUTES[3];
+        break;
+      case ('/photos'):
+        this.activeRoute = ROUTES[4];
         break;
     }
   }

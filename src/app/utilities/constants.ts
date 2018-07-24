@@ -1,5 +1,9 @@
 export const ROUTES = [
     {
+      name: 'home',
+      route: '/'
+    },
+    {
       name: 'menu',
       route: '/menu'
     },
