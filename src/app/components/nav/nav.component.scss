@@ -2,7 +2,6 @@
 
 nav {
     z-index: 1;
-    position: sticky;
     top: 0;
     height: $nav-height;
     padding: $nav-padding;
@@ -14,8 +13,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    
 
     &.shadowed {
+        position: sticky;
         z-index: 3;
         background: $color-dark;
         color: $color-light;
@@ -53,6 +55,8 @@ nav {
     ul.nav-items {
         list-style-type: none;
         margin: 0;
+        text-align: center;
+        padding: 0;
 
         li.nav-item {
             display: inline-flex;
@@ -116,4 +120,10 @@ nav {
             }
         }
     }
+    
+    
+
+
 }
+
+
