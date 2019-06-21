@@ -25,7 +25,7 @@ export class NavComponent implements OnInit {
     this.routes = ROUTES;
 
     window.addEventListener('scroll', () => {
-      if (window.scrollY > 140) {
+      if (window.matchMedia('screen and (min-width: 768px)').matches && window.scrollY > 140) {
         this.scrolling = true;
       } else {
         this.scrolling = false;

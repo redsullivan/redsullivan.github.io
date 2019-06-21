@@ -49,7 +49,7 @@ $border-bottom-radius: 5px;
 
 // header
 $header-height: 150px;
-$header-padding: 0 30px;
+$header-padding: 0 15px;
 $header-border-height: 5px;
 $header-border: $header-border-height solid transparent;
 $header-border-image: $gradient-primary 10;
@@ -61,7 +61,7 @@ $social-network-padding: 15px;
 
 // nav
 $nav-height: 60px;
-$nav-padding: 0 30px;
+$nav-padding: 0;
 $nav-background: $color-light;
 $nav-color: $color-dark;
 $nav-font: $font-nav;

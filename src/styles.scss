@@ -7,12 +7,17 @@
 @import '~styles/spinners';
 
 
+
 // globals
 body {
     margin: 0;
     font-family: $font-primary;
     font-weight: $font-weight-normal;
     color: $color-dark;
+    
+    @media screen and (max-width: 768px) {
+      span { font-size: 82%; }
+    }
 }
 
 a {
@@ -20,10 +25,19 @@ a {
 }
 
 main {
+  
+  @media screen and (max-width: 768px) {
+      padding: 25px;
+  }
+  
+  
+  
   background: $main-background;
-    //background-image: $background-pattern;
-    //background-attachment: fixed;
-    padding: $main-padding;
+  //background-image: $background-pattern;
+  //background-attachment: fixed;
+  padding: $main-padding;
+  
+  
 }
 
 div.title-wrapper {

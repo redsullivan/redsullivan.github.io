@@ -1,7 +1,14 @@
 @import '~variables.scss';
 
 footer {
+    
+    @media(max-width: 768px) {
+      padding: 15px;
+    }
+        
     display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
     padding: $footer-padding;
     //border-top: 10px solid $color-dark;
     //border-bottom: 10px solid $color-dark;
@@ -10,11 +17,19 @@ footer {
     box-shadow: 0 -4px 6px 0 hsla(0, 0%, 0%, 0.2);
 
     div.footer-col {
-        flex: 1;
-        padding: 10px;
-
+        @media(max-width: 768px) {
+          flex-basis: 100%;
+          padding: 0px;  
+        }
+        
+        flex-basis: calc(27.5% - 20px);
+        padding: 10px;    
+        
         &:nth-child(1) {
-            flex: 1.5;
+            @media(max-width: 768px) {
+                flex-basis: 100%;
+            }
+            flex-basis: calc(45% - 20px);
         }
 
         h6 {
